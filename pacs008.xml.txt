@@ -2,9 +2,10 @@
 <Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
     <FIToFICstmrCdtTrf>
 
+    alabala
+
         <!-- Group Header -->
         <GrpHdr2026>
->>>>>>> ff56fc9839e575c31ee9dceaefc4fabba305b7f2
             <MsgId>MSG202603040001</MsgId>
             <CreDtTm>2026-03-04T10:15:30</CreDtTm>
             <NbOfTxs>1</NbOfTxs>
@@ -22,7 +23,6 @@
                 </FinInstnId>
             </InstdAgt>
         </GrpHdr2026>
->>>>>>> ff56fc9839e575c31ee9dceaefc4fabba305b7f2
 
         <!-- Credit Transfer Transaction -->
         <CdtTrfTxInf>
@@ -62,7 +62,7 @@
                 </FinInstnId>
             </DbtrAgt>
 
-            <!-- Creditor Agent -->
+            <!-- Creditor Agent --> sfdsfdsfds
             <CdtrAgt>
                 <FinInstnId>
                     <BICFI>BANKFRPPXXX</BICFI>
