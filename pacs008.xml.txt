@@ -3,7 +3,7 @@
     <FIToFICstmrCdtTrf>
 
         <!-- Group Header -->
-        <GrpHdr>
+        <GrpHdr2026>
             <MsgId>MSG202603040001</MsgId>
             <CreDtTm>2026-03-04T10:15:30</CreDtTm>
             <NbOfTxs>1</NbOfTxs>
@@ -20,7 +20,7 @@
                     <BICFI>BANKFRPPXXX</BICFI>
                 </FinInstnId>
             </InstdAgt>
-        </GrpHdr>
+        </GrpHdr2026>
 
         <!-- Credit Transfer Transaction -->
         <CdtTrfTxInf>
