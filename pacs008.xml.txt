@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+    <FIToFICstmrCdtTrf>
+
+        <!-- Group Header -->
+        <GrpHdr>
+            <MsgId>MSG202603040001</MsgId>
+            <CreDtTm>2026-03-04T10:15:30</CreDtTm>
+            <NbOfTxs>1</NbOfTxs>
+            <SttlmInf>
+                <SttlmMtd>CLRG</SttlmMtd>
+            </SttlmInf>
+            <InstgAgt>
+                <FinInstnId>
+                    <BICFI>BANKDEFFXXX</BICFI>
+                </FinInstnId>
+            </InstgAgt>
+            <InstdAgt>
+                <FinInstnId>
+                    <BICFI>BANKFRPPXXX</BICFI>
+                </FinInstnId>
+            </InstdAgt>
+        </GrpHdr>
+
+        <!-- Credit Transfer Transaction -->
+        <CdtTrfTxInf>
+
+            <PmtId>
+                <InstrId>INST20260304001</InstrId>
+                <EndToEndId>E2E20260304001</EndToEndId>
+                <TxId>TX20260304001</TxId>
+            </PmtId>
+
+            <PmtTpInf>
+                <SvcLvl>
+                    <Cd>SEPA</Cd>
+                </SvcLvl>
+                <LclInstrm>
+                    <Cd>INST</Cd>
+                </LclInstrm>
+            </PmtTpInf>
+
+            <IntrBkSttlmAmt Ccy="EUR">100.00</IntrBkSttlmAmt>
+            <IntrBkSttlmDt>2026-03-04</IntrBkSttlmDt>
+
+            <ChrgBr>SLEV</ChrgBr>
+
+            <!-- Debtor -->
+            <Dbtr>
+                <Nm>John Doe</Nm>
+            </Dbtr>
+            <DbtrAcct>
+                <Id>
+                    <IBAN>DE89370400440532013000</IBAN>
+                </Id>
+            </DbtrAcct>
+            <DbtrAgt>
+                <FinInstnId>
+                    <BICFI>BANKDEFFXXX</BICFI>
+                </FinInstnId>
+            </DbtrAgt>
+
+            <!-- Creditor Agent -->
+            <CdtrAgt>
+                <FinInstnId>
+                    <BICFI>BANKFRPPXXX</BICFI>
+                </FinInstnId>
+            </CdtrAgt>
+
+            <!-- Creditor -->
+            <Cdtr>
+                <Nm>Jane Smith</Nm>
+            </Cdtr>
+            <CdtrAcct>
+                <Id>
+                    <IBAN>FR7630006000011234567890189</IBAN>
+                </Id>
+            </CdtrAcct>
+
+            <!-- Remittance -->
+            <RmtInf>
+                <Ustrd>Invoice 2026-03</Ustrd>
+            </RmtInf>
+
+        </CdtTrfTxInf>
+
+    </FIToFICstmrCdtTrf>
+</Document>
